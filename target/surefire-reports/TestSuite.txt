@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 146.431 s <<< FAILURE! - in TestSuite
-verifyBlogLinks(com.polymathlab.tests.OtherTests)  Time elapsed: 11.3 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.polymathlab.tests.OtherTests.verifyBlogLinks(OtherTests.java:55)
-
