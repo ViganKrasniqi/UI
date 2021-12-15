@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "TestNg" verbose="1">
+    <test name = "Test run" >
+        <classes>
+            <class name="com.polymathlab.tests.NavigationTests"/>
+            <class name="com.polymathlab.tests.OtherTests">
+                <methods>
+                    <include name="verifyBlogLinks"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
